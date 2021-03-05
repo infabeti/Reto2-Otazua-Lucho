@@ -1,13 +1,13 @@
 const http = require('http');
 const fs = require('fs');
 const path = require('path');
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 8080;
 
 const server = http.createServer((req, res) => {
     let filePath = path.join(
         __dirname,
         "/",
-        req.url === "/" ? "layout.html" : req.url
+        req.url === "/" ? "index.html" : req.url
     );
 
     let extName = path.extname(filePath);
@@ -29,10 +29,13 @@ const server = http.createServer((req, res) => {
         case '.jpg':
             contentType = 'image/jpg';
             break;
+        case '.ico':
+            contentType = 'image/ico';
+            break; 
     }
 
-    console.log(`File path: ${filePath}`);
-    console.log(`Content-Type: ${contentType}`)
+    console.log('File path: ${filePath}');
+    console.log('Content-Type: ${contentType}')
 
     res.writeHead(200, {'Content-Type': contentType});
 
