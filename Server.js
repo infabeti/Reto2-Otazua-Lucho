@@ -1,24 +1,49 @@
 const http = require('http');
 const fs = require('fs');
+const path = require('path');
+const port = process.env.PORT || 3000;
 
-http.createServer(function(request, response) {
-   if(request.url=='/'){
-       fs.readFile('./index.html', function (err, html) {
-            if (err) {
-                 res.send(500,{error: err});
-            }
-            response.writeHeader(200, {"Content-Type": "text/html"});
-            response.write(html);
-            response.end();
-       });
-   } else if(request.url=='/index.js'){
-       fs.readFile('./index.js', function (err, jsFile) {
-            if (err) {
-                 res.send(500,{error: err});
-            }
-            response.writeHeader(200, {"Content-Type": "text/javascript"});
-            response.write(jsFile);
-            response.end();
-       });
-   }
-}).listen(8080);
+const server = http.createServer((req, res) => {
+    let filePath = path.join(
+        __dirname,
+        "/",
+        req.url === "/" ? "layout.html" : req.url
+    );
+
+    let extName = path.extname(filePath);
+    let contentType = 'text/html';
+
+    switch (extName) {
+        case '.css':
+            contentType = 'text/css';
+            break;
+        case '.js':
+            contentType = 'text/javascript';
+            break;
+        case '.json':
+            contentType = 'application/json';
+            break;
+        case '.png':
+            contentType = 'image/png';
+            break;
+        case '.jpg':
+            contentType = 'image/jpg';
+            break;
+    }
+
+    console.log(`File path: ${filePath}`);
+    console.log(`Content-Type: ${contentType}`)
+
+    res.writeHead(200, {'Content-Type': contentType});
+
+    const readStream = fs.createReadStream(filePath);
+    readStream.pipe(res);
+});
+
+server.listen(port, (err) => {
+    if (err) {
+        console.log('Error: ${err}')
+    } else {
+        console.log('Server listening at port ${port}...');
+    }
+});
