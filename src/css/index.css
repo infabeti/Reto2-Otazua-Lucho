@@ -1,3 +1,13 @@
+body {
+	font-family: Verdana,Arial,sans-serif;
+	font-size: 0.8em;
+	margin: 0;
+	padding: 0;
+	height: 100vh;
+	background-position: center;
+
+}
+
 .LogoCarrito {
 	position: absolute;
 	top: 9%;
@@ -23,11 +33,11 @@
 	height: 15%;
 }
 
-table {
+.table1 {
 	border: 3px solid #E91E63;
 	border-collapse:collapse;
-	width:95%;
-	height:50%;
+	width:130em;
+	height:52em;
 	display: block;
 	margin-right: auto;
 	margin-left: auto;
@@ -35,8 +45,7 @@ table {
 
 .LogoCirculo {
 	position: absolute;
-	width: 25%;
-	height: 30%;
-	left: auto;
-	right: auto;
+	left: 54em;
+	right: 54em;
+	width: 27%;
 }
