@@ -42,3 +42,52 @@ body {
 	margin-right: auto;
 	margin-left: auto;
 }
+
+.bar1 {
+	display: block;
+	margin-top: 0.5%;
+	margin-left: 8%;
+	align-content: left;
+	width: 80%;
+	left: 55%;
+	border-radius: 20px;
+}
+
+.bar1l {
+	margin-left: 8.5%;
+}
+
+fieldset.bar1 {
+	margin-top: 1%;
+	display: block;
+	width: 25em;
+	height: 18em;
+	margin: 0;
+	padding: 0;
+	margin-left: 2%;
+}
+
+
+.bar2 {
+	display: inline-block;
+	margin-top: 0.5%;
+	margin-left: 8%;
+	align-content: left;
+	width: 70%;
+	left: 45%;
+	border-radius: 20px;
+}
+
+.bar2 {
+	margin-left: 8.5%;
+}
+
+fieldset.bar2 {
+	margin-top: 1%;
+	display: block;
+	width: 25em;
+	height: 18em;
+	margin: 0;
+	padding: 0;
+	margin-left: 2%;
+}
