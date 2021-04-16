@@ -42,3 +42,52 @@ body {
 	margin-right: auto;
 	margin-left: auto;
 }
+.rest1 {
+	display: block;
+	margin-top: 0.5%;
+	margin-left: 8%;
+	align-content: left;
+	width: 80%;
+	left: 55%;
+	border-radius: 20px;
+}
+
+.rest1l {
+	margin-left: 8.5%;
+}
+
+fieldset.rest1 {
+	margin-top: 1%;
+	display: block;
+	width: 25em;
+	height: 18em;
+	margin: 0;
+	padding: 0;
+	margin-left: 2%;
+}
+
+
+.rest2 {
+	display: inline-block;
+	margin-top: 0.5%;
+	margin-left: 8%;
+	align-content: left;
+	width: 70%;
+	left: 45%;
+	border-radius: 20px;
+}
+
+.rest2l {
+	margin-left: 8.5%;
+	margin-top: 1%;
+}
+
+fieldset.rest2 {
+	top: 29%;
+	position: absolute;
+	width: 24em;
+	height: 18em;
+	margin: 0;
+	padding: 0;
+	left: 24.5%;
+}
