@@ -141,3 +141,14 @@ fieldset.prod2 {
 	padding: 0;
 	left: 24.5%;
 }
+
+.prodstock {
+	position: absolute;
+	margin-left: 5%;
+	top: 49%;
+}
+
+.marcador {
+	text-align: center;
+	width: 8%;
+}
