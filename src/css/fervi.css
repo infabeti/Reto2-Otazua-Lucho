@@ -122,7 +122,7 @@ fieldset.prod1 {
 	margin-top: 0.5%;
 	margin-left: 8%;
 	align-content: left;
-	width: 77%;
+	width: 86%;
 	left: 45%;
 	border-radius: 20px;
 }
@@ -151,4 +151,10 @@ fieldset.prod2 {
 .marcador {
 	text-align: center;
 	width: 8%;
+}
+
+.prodstock2 {
+	position: absolute;
+	margin-left: 35%;
+	top: 79.2%;
 }

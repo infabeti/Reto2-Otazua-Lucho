@@ -152,3 +152,9 @@ fieldset.prod2 {
 	text-align: center;
 	width: 8%;
 }
+
+.prodstock2 {
+	position: absolute;
+	margin-left: 35%;
+	top: 79.2%;
+}
