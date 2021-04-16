@@ -42,3 +42,53 @@ body {
 	margin-right: auto;
 	margin-left: auto;
 }
+
+.cafe1 {
+	display: block;
+	margin-top: 0.5%;
+	margin-left: 8%;
+	align-content: left;
+	width: 68%;
+	left: 43%;
+	border-radius: 20px;
+}
+
+.cafe1l {
+	margin-left: 8.5%;
+}
+
+fieldset.cafe1 {
+	margin-top: 1%;
+	display: block;
+	width: 25em;
+	height: 18em;
+	margin: 0;
+	padding: 0;
+	margin-left: 2%;
+}
+
+
+.cafe2 {
+	display: inline-block;
+	margin-top: 0.5%;
+	margin-left: 8%;
+	align-content: left;
+	width: 82%;
+	left: 57%;
+	border-radius: 20px;
+}
+
+.cafe2l {
+	margin-left: 8.5%;
+	margin-top: 1%;
+}
+
+fieldset.cafe2 {
+	top: 29%;
+	position: absolute;
+	width: 24em;
+	height: 18em;
+	margin: 0;
+	padding: 0;
+	left: 24.5%;
+}

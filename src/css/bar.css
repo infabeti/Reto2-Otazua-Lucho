@@ -78,16 +78,17 @@ fieldset.bar1 {
 	border-radius: 20px;
 }
 
-.bar2 {
+.bar2l {
 	margin-left: 8.5%;
+	margin-top: 1%;
 }
 
 fieldset.bar2 {
-	margin-top: 1%;
-	display: block;
-	width: 25em;
+	top: 29%;
+	position: absolute;
+	width: 24em;
 	height: 18em;
 	margin: 0;
 	padding: 0;
-	margin-left: 2%;
+	left: 24.5%;
 }
