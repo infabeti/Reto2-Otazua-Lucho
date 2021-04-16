@@ -116,3 +116,28 @@ fieldset.prod1 {
 	padding: 0;
 	margin-left: 2%;
 }
+
+.prod2 {
+	display: inline-block;
+	margin-top: 0.5%;
+	margin-left: 8%;
+	align-content: left;
+	width: 77%;
+	left: 45%;
+	border-radius: 20px;
+}
+
+.prod2l {
+	margin-left: 8.5%;
+	margin-top: 1%;
+}
+
+fieldset.prod2 {
+	top: 29%;
+	position: absolute;
+	width: 24em;
+	height: 18em;
+	margin: 0;
+	padding: 0;
+	left: 24.5%;
+}
