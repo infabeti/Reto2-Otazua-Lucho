@@ -1,0 +1,94 @@
+body {
+	font-family: Verdana,Arial,sans-serif;
+	font-size: 0.8em;
+	margin: 0;
+	padding: 0;
+	height: 100vh;
+	background-position: center;
+
+}
+
+.LogoCarrito {
+	position: absolute;
+	top: 9%;
+	right: 10%;
+	width: 4%;
+	height: 6%;
+}
+
+.LogoUsuario {
+	position: absolute;
+	top: 10%;
+	right: 14%;
+	width: 3%;
+	height: 5%;
+}
+
+.LogoCabeza {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	top:1em;
+	width: 20%;
+	height: 15%;
+}
+
+.table1 {
+	border: 3px solid #E91E63;
+	border-collapse:collapse;
+	width:130em;
+	height:52em;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.bar1 {
+	display: block;
+	margin-top: 0.5%;
+	margin-left: 8%;
+	align-content: left;
+	width: 80%;
+	left: 55%;
+	border-radius: 20px;
+}
+
+.bar1l {
+	margin-left: 8.5%;
+}
+
+fieldset.bar1 {
+	margin-top: 1%;
+	display: block;
+	width: 25em;
+	height: 18em;
+	margin: 0;
+	padding: 0;
+	margin-left: 2%;
+}
+
+
+.bar2 {
+	display: inline-block;
+	margin-top: 0.5%;
+	margin-left: 8%;
+	align-content: left;
+	width: 70%;
+	left: 45%;
+	border-radius: 20px;
+}
+
+.bar2l {
+	margin-left: 8.5%;
+	margin-top: 1%;
+}
+
+fieldset.bar2 {
+	top: 29%;
+	position: absolute;
+	width: 24em;
+	height: 18em;
+	margin: 0;
+	padding: 0;
+	left: 24.5%;
+}
